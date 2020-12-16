@@ -1,4 +1,4 @@
-import 'package:youtube_darker/services/server/api-service.dart';
+import 'package:youtubedarker/services/api-service.dart';
 import 'package:flutter/material.dart';
 
 class Video {

@@ -1,5 +1,5 @@
-name: youtube_darker
-description: My personal project for a socail media application.
+name: youtubedarker
+description: youtubedarker a darker youtube
 
 publish_to: "none"
 
@@ -38,12 +38,12 @@ flutter_icons:
   android: true
   ios: true
   image_path: "assets/images/launchIcon.png"
-  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_background: "#000000"
   adaptive_icon_foreground: "assets/images/launchIcon.png"
 
 flutter_native_splash:
   image: "assets/images/splashIcon.png"
-  color: "FFFFFF"
+  color: "000000"
   android_disable_fullscreen: true
 
 flutter:

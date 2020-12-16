@@ -1,9 +1,9 @@
 import 'dart:io';
-import 'package:youtube_darker/common/colors.dart';
-import 'package:youtube_darker/common/widgets-service.dart';
-import 'package:youtube_darker/models/user-lifecycle-models/ui-model.dart';
-import 'package:youtube_darker/screens/helper-screens/search-screen.dart';
-import 'package:youtube_darker/services/server/api-service.dart';
+import 'package:youtubedarker/models/common/colors.dart';
+import 'package:youtubedarker/models/common/widgets-service.dart';
+import 'package:youtubedarker/models/user-lifecycle-models/ui-model.dart';
+import 'package:youtubedarker/screens/helper-screens/search-screen.dart';
+import 'package:youtubedarker/services/api-service.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -132,7 +132,7 @@ class NotificationScreenState extends State<NotificationScreen> {
             onRefresh: () async {
               if (_connectivitySource.values.toList()[0] == true) {
                 try {
-                  await http.get('https://github.com/adeolaex/youtube_darker/blob/adb772ba48bde4cd4bf805833af8ebda2c241ce5/lib/screens/core-screens/home-screen.dart');
+                  await http.get('https://github.com/adeolaex/youtubedarker/blob/adb772ba48bde4cd4bf805833af8ebda2c241ce5/lib/screens/core-screens/home-screen.dart');
                   refreshController.refreshCompleted();
                 } on SocketException catch (_) {
                   refreshController.refreshFailed();

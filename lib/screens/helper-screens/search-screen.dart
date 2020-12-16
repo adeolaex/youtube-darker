@@ -1,5 +1,5 @@
-import 'package:youtube_darker/common/colors.dart';
-import 'package:youtube_darker/models/user-lifecycle-models/ui-model.dart';
+import 'package:youtubedarker/models/common/colors.dart';
+import 'package:youtubedarker/models/user-lifecycle-models/ui-model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

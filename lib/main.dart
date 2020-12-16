@@ -1,13 +1,12 @@
-import 'package:youtube_darker/models/common/colors.dart';
-import 'package:youtube_darker/models/user-lifecycle-models/ui-model.dart';
-import 'package:youtube_darker/models/user-lifecycle-models/user-model.dart';
-import 'package:youtube_darker/models/youtube-api-models/youtube-feed-model.dart';
-import 'package:youtube_darker/screens/core-screens/core-header-screen.dart';
+import 'package:youtubedarker/models/common/colors.dart';
+import 'package:youtubedarker/models/user-lifecycle-models/ui-model.dart';
+import 'package:youtubedarker/models/user-lifecycle-models/user-model.dart';
+import 'package:youtubedarker/models/youtube-api-models/youtube-feed-model.dart';
+import 'package:youtubedarker/screens/core-screens/core-header-screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:provider/provider.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'screens/core-screens/core-header-screen.dart';
@@ -18,20 +17,7 @@ Future<void> main() async {
   SystemChrome.setSystemUIOverlayStyle(
     SystemUiOverlayStyle(statusBarBrightness: Brightness.dark),
   );
-  FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
 
-  const AndroidInitializationSettings initializationSettingsAndroid = AndroidInitializationSettings('app_icon');
-
-  final IOSInitializationSettings initializationSettingsIOS = IOSInitializationSettings(
-      // onDidReceiveLocalNotification:
-      );
-
-  final InitializationSettings initializationSettings = InitializationSettings(android: initializationSettingsAndroid, iOS: initializationSettingsIOS);
-
-  await flutterLocalNotificationsPlugin.initialize(
-    initializationSettings,
-    // onSelectNotification: selectNotification,
-  );
   SystemChrome.setPreferredOrientations(
     [
       DeviceOrientation.portraitUp,
@@ -106,7 +92,7 @@ Future<void> main() async {
         hideFooterWhenNotFull: true, // Disable pull-up to load more functionality when Viewport is less than one screen
         enableBallisticLoad: true,
         child: MaterialApp(
-          title: 'youtube_darker',
+          title: 'youtubedarker',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
             accentColor: blueColor,

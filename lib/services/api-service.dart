@@ -4,8 +4,8 @@ import 'dart:convert';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
-import 'package:youtube_darker/models/common/api-keys.dart';
-import 'package:youtube_darker/models/youtube-api-models/youtube-feed-model.dart';
+import 'package:youtubedarker/models/common/api-keys.dart';
+import 'package:youtubedarker/models/youtube-api-models/youtube-feed-model.dart';
 
 class MyConnectivity {
   MyConnectivity._internal();

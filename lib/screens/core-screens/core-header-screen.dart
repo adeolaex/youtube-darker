@@ -1,7 +1,7 @@
-import 'package:youtube_darker/common/colors.dart';
-import 'package:youtube_darker/common/widgets-service.dart';
-import 'package:youtube_darker/screens/core-screens/settings-screen.dart';
-import 'package:youtube_darker/services/server/api-service.dart';
+import 'package:youtubedarker/models/common/colors.dart';
+import 'package:youtubedarker/models/common/widgets-service.dart';
+import 'package:youtubedarker/screens/core-screens/settings-screen.dart';
+import 'package:youtubedarker/services/api-service.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

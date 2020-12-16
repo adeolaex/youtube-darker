@@ -1,6 +1,6 @@
-import 'package:youtube_darker/models/common/colors.dart';
-import 'package:youtube_darker/models/common/widgets-service.dart';
-import 'package:youtube_darker/models/user-lifecycle-models/ui-model.dart';
+import 'package:youtubedarker/models/common/colors.dart';
+import 'package:youtubedarker/models/common/widgets-service.dart';
+import 'package:youtubedarker/models/user-lifecycle-models/ui-model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:marquee/marquee.dart';
@@ -103,7 +103,7 @@ class YoutubePlayerScreenState extends State<YoutubePlayerScreen> {
                     // Container(
                     //   height: 205,
                     //   child: InAppWebView(
-                    //     initialUrl: 'https://youtube_darkerapi.web.app/',
+                    //     initialUrl: 'https://youtubedarkerapi.web.app/',
                     //     initialOptions: InAppWebViewGroupOptions(
                     //       ios: IOSInAppWebViewOptions(
                     //         allowsAirPlayForMediaPlayback: true,

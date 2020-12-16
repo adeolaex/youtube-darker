@@ -1,9 +1,9 @@
 import 'dart:io';
-import 'package:youtube_darker/models/common/colors.dart';
-import 'package:youtube_darker/models/common/widgets-service.dart';
-import 'package:youtube_darker/models/user-lifecycle-models/ui-model.dart';
-import 'package:youtube_darker/models/youtube-api-models/youtube-feed-model.dart';
-import 'package:youtube_darker/services/api-service.dart';
+import 'package:youtubedarker/models/common/colors.dart';
+import 'package:youtubedarker/models/common/widgets-service.dart';
+import 'package:youtubedarker/models/user-lifecycle-models/ui-model.dart';
+import 'package:youtubedarker/models/youtube-api-models/youtube-feed-model.dart';
+import 'package:youtubedarker/services/api-service.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';

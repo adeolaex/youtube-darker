@@ -1,4 +1,4 @@
-import 'package:youtube_darker/common/colors.dart';
+import 'package:youtubedarker/models/common/colors.dart';
 import 'package:flutter/material.dart';
 
 class WidgetService {

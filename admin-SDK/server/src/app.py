@@ -1,5 +1,5 @@
 # This is the url of the flask app being stored on gcloud
-# https://youtube_darker-adminsdk-cul42mrqdq-uc.a.run.app
+# https://youtubedarker-adminsdk-cul42mrqdq-uc.a.run.app
 
 
 from os import error

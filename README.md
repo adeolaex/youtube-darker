@@ -2,7 +2,7 @@
 <p  align="center">
 
 <img  src="https://img.shields.io/maintenance/yes/2020?style=for-the-badge"  alt="Maintained">
-<a  href="https://github.com/adeolaex/youtube_darker/blob/master/LICENSE"><img  src="https://img.shields.io/cran/l/devtools?color=blue&label=LICENSE&style=for-the-badge"  alt="License"></a>
+<a  href="https://github.com/adeolaex/youtubedarker/blob/master/LICENSE"><img  src="https://img.shields.io/cran/l/devtools?color=blue&label=LICENSE&style=for-the-badge"  alt="License"></a>
 
 </p>
 
@@ -10,7 +10,7 @@
 
   
 
-youtube_darker is a cross-platform application built using the [Flutter SDK](https://flutter.dev), to offer a fast user experience, a re-defined approach towards social media and fun across various platforms. youtube_darker works currently supports Android and IOS, with a possible port to the Web. 
+youtubedarker is a cross-platform application built using the [Flutter SDK](https://flutter.dev), to offer a fast user experience, a re-defined approach towards social media and fun across various platforms. youtubedarker works currently supports Android and IOS, with a possible port to the Web. 
 
 It would be possible to target both Windows and MacOs ( even linus ), but with Web apps becoming much more popular and diverse ; It has long been decided that a function Web Application would kill 3 birds with one stone.
 
@@ -21,7 +21,7 @@ It would be possible to target both Windows and MacOs ( even linus ), but with W
 
 *  [Flutter's Documentation](https://flutter.dev/get-started/)
 
-*  [Wiki](https://github.com/adeolaex/youtube_darker/wiki)
+*  [Wiki](https://github.com/adeolaex/youtubedarker/wiki)
 
   
   
@@ -34,11 +34,11 @@ For announcements about new releases and breaking changes, join the offical Disc
 
   
 
-## Overview Of youtube_darker
+## Overview Of youtubedarker
 
   
 
-youtube_darker started of as a pet project during the early release of Flutter. As Flutter grew and become much more stable, youtube_darker became a top priority.I hope this overview would give you a sense of the production technologies and paradigms that made youtube_darker..... youtube_darker
+youtubedarker started of as a pet project during the early release of Flutter. As Flutter grew and become much more stable, youtubedarker became a top priority.I hope this overview would give you a sense of the production technologies and paradigms that made youtubedarker..... youtubedarker
 
   
 
